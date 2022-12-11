@@ -1,0 +1,35 @@
+
+.map {
+    width:100%;
+    height:99vh;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.top-form {
+    margin:5px;
+}
+.search-button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.table>:not(caption)>*>* {
+    background-color: none;
+}
+.save-button {
+    padding:4px!important;
+}
+
+#table_container .styled {
+    cursor: pointer;
+}
+
+@media screen and (max-width:576px) {
+    .styled {
+        justify-content: center!important;
+    }
+    .save-button {
+        padding: 0px!important;
+        font-size: 12px;
+    }
+}

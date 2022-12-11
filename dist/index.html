@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="vendors-node_modules_googlemaps_js-api-loader_dist_index_esm_js-node_modules_firebase_app_dis-d502e8.css" rel="stylesheet"><link href="index.css" rel="stylesheet"></head>
+<body>
+    <div class="container-fluid mt-1">
+        <div id="app_container" class="row">
+            <div id="parent_container" class="col-12 col-lg">
+                <form id="searchform">
+                    <div class="input-group">
+                        <input type="text" id="address" name="address" placeholder="Search" class="form-control">
+                    <span><button id="search-button"class="btn btn-primary search-button"><i class="fa fa-search"></i></button></span>
+                    <span><button id="view" onclick="location.href='storage.html'" class="btn btn-secondary mx-1">view</button></span> 
+                    </div>
+                    
+                </form>
+                <div id="table_container" class="table table-hover"> </div>
+            </div>
+            <div id="map" class="map col-12 col-lg"></div>
+        </div>
+    </div>    
+<script src="runtime.js"></script><script src="vendors-node_modules_googlemaps_js-api-loader_dist_index_esm_js-node_modules_firebase_app_dis-d502e8.js"></script><script src="index.js"></script></body>
+</html>
